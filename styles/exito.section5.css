@@ -1,0 +1,88 @@
+.exito {
+    background-color: var(--gray-color);
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+.exito .limite {
+    max-width: 1200px;
+    margin: auto;
+}
+.exito .limite h1{
+    color: var(--blue-color);
+    font-size: 40px;
+}
+.exito .limite .articles{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+.exito article {
+    border: var(--dark-color) 1px solid;
+    padding: 30px 20px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.exito article p{
+    max-width: 300px;
+    margin-bottom: 40px;
+    color: var(--dark-color);
+    font-size: 15px;
+}
+.exito figure {
+    padding: 0px;
+    max-width: 150px;    
+}
+.exito figure img{
+    width: 100%;
+    border-radius: 50%;
+}
+.exito article .ver-mas {
+    background-color: var(--orange-color);
+    color: var(--gray-color);
+    padding: 5px 30px;
+    text-decoration: none;    
+    top: calc(85%);
+    right: calc(0% - 25px);
+    position: absolute;
+}
+.exito .podemos {
+    margin-top: 20px;
+    background-color: var(--blue-color);
+    padding: 50px 0px;
+    text-align: left;
+}
+.exito .podemos h2 {
+    color: var(--gray-color);
+    font-family: var(--font-bold);
+    font-size: 25px;
+}
+.exito .podemos p {
+    color: var(--gray-color);
+    max-width: 800px;
+    font-family: var(--font-light);
+    font-size: 15px;
+}
+.exito .podemos .division {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+.exito .podemos .division .boton{
+    background-color: var(--gray-color);
+    color: var(--blue-color);
+    font: var(--font-bold);
+    font-size: 20px;
+ }
+ @media(max-width:480px){
+    .exito {
+        display: none;
+    }
+   
+}

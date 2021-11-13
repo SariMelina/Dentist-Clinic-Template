@@ -1,0 +1,41 @@
+.servicios {
+    margin: auto;
+    margin-top: 20px;
+    max-width: 1200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.servicios h1{
+    color: var(--blue-color);
+    font-family: var(--font-bold);
+    font-size: 40px;
+}
+.servicios .articles {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.servicios figure {
+    padding: 0px;
+    max-width: 200px;
+}
+.servicios figure img {
+    width: 100%;
+}
+.servicios h3 {
+    max-width: 200px;
+    color: var(--blue-color);
+    font-family: var(--font-bold);
+    font-size: 20px;
+}
+@media(max-width:480px){
+    .servicios .articles {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+   
+}

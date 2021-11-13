@@ -1,0 +1,76 @@
+.frontend {
+    background-color: var(--blue-color);
+    color: white;
+}
+.linea {
+    border: rgb(228, 226, 225) 1px solid;    
+}
+header {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header .titulo {
+    font-family: var(--font-bold);
+    color: var(--dark-color);
+    font-size: 15px;
+}
+header .informa {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+header .texto {
+    color: var(--dark-color);
+    font-family: var(--font-bold);
+    margin-left: 10px;
+}
+header .ayuda {
+    display: flex;
+    flex-direction: row;
+    line-height: 10px;
+    margin-right: 60px;
+}
+header .nara {
+    color: var(--orange-color);
+}
+nav {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;    
+}
+nav a:hover{
+    text-decoration: none;
+    font-family: var(--font-bold);
+    color: var(--dark-color);
+    border-bottom: var(--orange-color) 2px solid;
+}
+nav a{
+    text-decoration: none;
+    font-family: var(--font-bold);
+    color: var(--dark-color);
+}
+@media (max-width:480px){
+    header {
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #hora {
+        display: none;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

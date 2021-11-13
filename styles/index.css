@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "Abel";
+    src: url('../fonts/Abel-Regular.ttf');
+}
+@font-face {
+    font-family: "Oswald";
+    src: url('../fonts/Oswald-VariableFont_wght.ttf');
+}
+:root {
+    /*  FONTS   */
+    --font-light: "Abel", sans-serif;
+    --font-bold: "Oswald", sans-serif;
+    /*  COLOR   */
+    --blue-color: #3198E2;
+    --gray-color: #F7F7F7;
+    --orange-color: #BE6802;
+    --dark-color: #373838;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: white;
+    font-family: var(--font-light);
+    text-align: center;
+}
+.boton {
+    background-color: var(--blue-color);
+    text-decoration: none;
+    font-family: var(--font-light);
+    color: var(--gray-color);
+    padding: 10px 30px;
+}

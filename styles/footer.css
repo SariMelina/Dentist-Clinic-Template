@@ -1,0 +1,13 @@
+footer {
+    background-color: var(--dark-color);
+    margin: auto;
+    padding: 20px 0px;
+    font-family: var(--font-bold);
+    color: var(--gray-color);
+}
+@media(max-width:480px){
+    footer{
+        margin-top: 50px;
+    }
+   
+}
